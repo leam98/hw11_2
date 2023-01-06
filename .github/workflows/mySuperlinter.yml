@@ -5,7 +5,8 @@ on: push
 jobs:
   super-lint:
   name: Lint code base 
-  runs-on: ubuntu-latest steps:
+  runs-on: ubuntu-latest 
+  steps:
     - name: Checkout code
       uses: github/super-linter@3.17.0
       
